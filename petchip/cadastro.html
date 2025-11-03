@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro — PetChip</title>
+  <link rel="stylesheet" href="css/cadastro.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro do Tutor e do Pet</h2>
+    <form action="agenda.html" method="get">
+      <fieldset>
+        <legend>Dados do Tutor</legend>
+        <input type="text" placeholder="Nome completo" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="tel" placeholder="Telefone" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados do Pet</legend>
+        <input type="text" placeholder="Nome do Pet" required />
+        <input type="text" placeholder="Raça" required />
+        <input type="number" placeholder="Idade" required />
+        <textarea placeholder="Histórico de saúde"></textarea>
+      </fieldset>
+
+      <button type="submit" class="btn">Continuar para Agendamento</button>
+    </form>
+  </div>
+</body>
+</html>
